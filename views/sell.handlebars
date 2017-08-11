@@ -1,0 +1,47 @@
+<nav>
+    <div class="nav-wrapper">
+        <a src="" class="brand-logo"></a>
+        <ul class="right hide-on-med-and-down">
+            <li><a href="/">Home</a></li>
+            <!-- <li><a href="#">What's Available</a></li> -->
+            <!-- <li><a href="buy.html">Buy</a></li> -->
+            <li><a href="/sell">Sell</a></li>
+            <!-- <li><a href="#">Contact</a></li> -->
+            <!-- Dropdown Trigger -->
+            <li><a class="dropdown-button" href="/login" data-activates="dropdown1">Log in<i class="material-icons right"></i></a></li>
+        </ul>
+    </div>
+</nav>
+<br>
+<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+   <div class="container text-center">
+        <form action="/api/listing" method="POST" role="form">
+           <h5 class="teal-text">Sell an item</h5>
+            <div class="form-group">
+                <label for="">Item Name</label>
+                <input type="text" name="title" class="form-control" id="" placeholder="ex: iPhone7 64gb">
+            </div>
+            <div class="form-group">
+                <label for="">Item Description</label>
+                <input type="text" name="body" class="form-control" id="" placeholder="ex: New still in box">
+            </div>
+            <div class="form-group">
+            <label for="">Category</label>
+            <input type="text" name="category" class="form-control" id="" placeholder="ex: electronics">
+        </div>
+        <div class="form-group">
+            <label for="">Item Price</label>
+            <input type="text" name="price" class="form-control" id="" placeholder="$0.00">
+        </div>
+        <div class="form-group">
+            <label for="">Contact Email</label>
+            <input type="email" name="contact_email" class="form-control" id="" placeholder="me@me.com">
+        </div>
+            <button type="submit" class="btn btn-primary">Continue</button>
+        </form>
+    </div> 
+</div>
+
+
+
+

@@ -1,0 +1,456 @@
+@font-face {
+    font-family: 'Muli', sans-serif;
+    /* src: url(../fonts/GatsbyFLF-Bold.ttf); */
+}
+
+.dz-message {
+    font-family: 'Muli', sans-serif;
+    font-size: 30px;
+    letter-spacing: 3px;
+    text-indent: 1.5px;
+}
+
+#dropzoneButton {
+    display: block;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.dropzone .dz-preview .dz-error-message {
+    top: 150px!important;
+}
+
+
+/* Remove the navbar's default rounded borders and increase the bottom margin */
+
+.navbar {
+    margin-bottom: 50px;
+    border-radius: 0;
+}
+
+
+/* Remove the jumbotron's default bottom margin */
+
+.jumbotron {
+    margin-bottom: 0;
+}
+
+
+/* Add a gray background color and some padding to the footer */
+
+footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+    margin-top: 100px;
+}
+
+nav {
+    margin-top: 40px;
+}
+
+.mainListings {
+    margin-top: 70px;
+}
+
+.listingImage {
+    height: 250px;
+}
+
+.listingItem {
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);
+}
+
+.listingItem:hover {
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.05);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.05);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.05);
+    transition: all 200ms ease-in;
+    transform: scale(1.05);
+}
+
+.listingItem>* {
+    margin: 10px 0;
+}
+
+.panel-footer {
+    border-top: none;
+}
+
+
+/* Image Slider */
+
+.rslides_container {
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
+}
+
+.rslides {
+    margin: 0 auto;
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+}
+
+.rslides li {
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.rslides li:first-child {
+    position: relative;
+    display: block;
+    float: left;
+}
+
+.rslides img {
+    display: block;
+    height: auto;
+    float: left;
+    width: 100%;
+    border: 0;
+}
+
+.transparent-btns_nav {
+    z-index: 3;
+    position: absolute;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    top: 0;
+    left: 0;
+    display: block;
+    background: #fff;
+    /* Fix for IE6-9 */
+    opacity: 0;
+    filter: alpha(opacity=1);
+    width: 48%;
+    text-indent: -9999px;
+    overflow: hidden;
+    height: 91%;
+}
+
+.transparent-btns_nav.next {
+    left: auto;
+    right: 0;
+}
+
+.large-btns_nav {
+    z-index: 3;
+    position: absolute;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    opacity: 0.6;
+    text-indent: -9999px;
+    overflow: hidden;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background: #000 url("themes.gif") no-repeat left 50%;
+    width: 38px;
+}
+
+.transparent-btns_nav:focus {
+    outline: none;
+}
+
+.transparent-btns_tabs {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.transparent-btns_tabs li {
+    display: inline;
+    float: none;
+    _float: left;
+    *float: left;
+    margin-right: 5px;
+}
+
+.transparent-btns_tabs a {
+    text-indent: -9999px;
+    overflow: hidden;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background: #ccc;
+    background: rgba(0, 0, 0, .2);
+    display: inline-block;
+    _display: block;
+    *display: block;
+    -webkit-box-shadow: inset 0 0 2px 0 rgba(0, 0, 0, .3);
+    -moz-box-shadow: inset 0 0 2px 0 rgba(0, 0, 0, .3);
+    box-shadow: inset 0 0 2px 0 rgba(0, 0, 0, .3);
+    width: 9px;
+    height: 9px;
+}
+
+.transparent-btns_here a {
+    background: #222;
+    background: rgba(0, 0, 0, .8);
+}
+
+body {
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'Muli', sans-serif;
+    /* src: url(../fonts/GatsbyFLF-Bold.ttf); */
+}
+
+.dz-message {
+    font-family: 'Muli', sans-serif;
+    font-size: 30px;
+    letter-spacing: 3px;
+    text-indent: 1.5px;
+}
+
+#dropzoneButton {
+    display: block;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.dropzone .dz-preview .dz-error-message {
+    top: 150px!important;
+}
+
+
+/* Remove the navbar's default rounded borders and increase the bottom margin */
+
+.navbar {
+    margin-bottom: 50px;
+    border-radius: 0;
+}
+
+
+/* Remove the jumbotron's default bottom margin */
+
+.jumbotron {
+    margin-bottom: 0;
+}
+
+
+/* Add a gray background color and some padding to the footer */
+
+footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+    margin-top: 115px;
+}
+
+.listingImage {
+    height: 250px;
+}
+
+.listingItem {
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);
+}
+
+.listingItem:hover {
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.05);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.05);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.05);
+    transition: all 200ms ease-in;
+    transform: scale(1.05);
+}
+
+.panel-footer {
+    border-top: none;
+}
+
+
+/* Image Slider */
+
+.rslides_container {
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
+}
+
+.rslides {
+    margin: 0 auto;
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+}
+
+.rslides li {
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.rslides li:first-child {
+    position: relative;
+    display: block;
+    float: left;
+}
+
+.rslides img {
+    display: block;
+    height: auto;
+    float: left;
+    width: 100%;
+    border: 0;
+}
+
+.transparent-btns_nav {
+    z-index: 3;
+    position: absolute;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    top: 0;
+    left: 0;
+    display: block;
+    background: #fff;
+    /* Fix for IE6-9 */
+    opacity: 0;
+    filter: alpha(opacity=1);
+    width: 48%;
+    text-indent: -9999px;
+    overflow: hidden;
+    height: 91%;
+}
+
+.transparent-btns_nav.next {
+    left: auto;
+    right: 0;
+}
+
+.large-btns_nav {
+    z-index: 3;
+    position: absolute;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    opacity: 0.6;
+    text-indent: -9999px;
+    overflow: hidden;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background: #000 url("themes.gif") no-repeat left 50%;
+    width: 38px;
+}
+
+.transparent-btns_nav:focus {
+    outline: none;
+}
+
+.transparent-btns_tabs {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.transparent-btns_tabs li {
+    display: inline;
+    float: none;
+    _float: left;
+    *float: left;
+    margin-right: 5px;
+}
+
+.transparent-btns_tabs a {
+    text-indent: -9999px;
+    overflow: hidden;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background: #ccc;
+    background: rgba(0, 0, 0, .2);
+    display: inline-block;
+    _display: block;
+    *display: block;
+    -webkit-box-shadow: inset 0 0 2px 0 rgba(0, 0, 0, .3);
+    -moz-box-shadow: inset 0 0 2px 0 rgba(0, 0, 0, .3);
+    box-shadow: inset 0 0 2px 0 rgba(0, 0, 0, .3);
+    width: 9px;
+    height: 9px;
+}
+
+.transparent-btns_here a {
+    background: #222;
+    background: rgba(0, 0, 0, .8);
+}
+
+body {
+    text-align: center;
+}
+
+
+/*Materialize styling */
+
+.parallax-container {
+    height: 205px;
+}
+
+#logo {
+    height: 250px;
+    width: 250px;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);
+}
+
+#logo:hover {
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.05);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.05);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.05);
+    transition: all 200ms ease-in;
+    transform: scale(1.05);
+}
+
+.nav-wrapper {
+    background-color: #009688;
+}
+
+.form-control {
+    text-align: center;
+}
+
+.container .row {
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+}
+
+#listing-text {
+    font-family: "Muli", sans-serif;
+}

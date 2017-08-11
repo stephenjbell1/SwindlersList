@@ -1,0 +1,41 @@
+{
+  "name": "Ripoff.com",
+  "version": "1.0.0",
+  "description": "Full stack app for posting your used goods",
+  "main": "server.js",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.17.2",
+    "connect-multiparty": "^2.0.0",
+    "dropzone": "^5.1.1",
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.5",
+    "method-override": "^2.3.9",
+    "mime": "^1.3.6",
+    "mysql": "^2.14.1",
+    "mysql2": "^1.4.0",
+    "passport": "^0.3.2",
+    "passport-json": "^1.2.0",
+    "passport-local": "^1.0.0",
+    "sequelize": "^4.4.2",
+    "sequelize-cli": "^2.8.0",
+    "uid2": "0.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akirschner89/Ripoff.com.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akirschner89/Ripoff.com/issues"
+  },
+  "homepage": "https://github.com/akirschner89/Ripoff.com#readme"
+}

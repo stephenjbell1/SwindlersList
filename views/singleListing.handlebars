@@ -1,0 +1,32 @@
+
+{{!-- Un-comment href/mailto once the User Model has been updated with an Email address colum --}}
+
+<div class="container">
+  <div class="row">
+      <div class="text-center" id="listing-text">
+        <h4>{{Listing.title}}</h4>
+        <h5>${{Listing.price}}</h5>
+        <h6>{{Listing.body}}</h6>
+        <br>
+        <button type='button'  name='btn_contact' class='btn btn-tiny waves-effect teal'>
+          
+          <a href="mailto:{{Listing.contact_email}}?Subject=Swindlers%20List:%20Question%20about%20item:%20{{Listing.title}}"></a><i class="tiny material-icons">email</i> Contact
+        </button>
+        
+        <button type='button' onclick="location.href = '/';" name='btn_back' class='btn btn-tiny waves-effect teal'>Back</button>
+      </div>
+  </div>
+      <div class="row">
+        <div class="rslides_container col s8 offset-s2 m8 offset-m2">
+          <ul class="rslides"> 
+          {{#each Listing.Images}}
+            <li class="rslides"><img src="/imageUploads/{{this.imageName}}" alt=""></li>
+          {{/each}}
+          </ul>
+        </div>
+      </div>
+
+
+
+
+
